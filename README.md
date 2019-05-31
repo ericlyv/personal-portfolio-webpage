@@ -6,3 +6,7 @@ FCC Project #5
  - Choosing color, typography, icons
  - uploaded files to github
  - built the html structure and content
+
+31 My 2019:
+- updated html files
+- added CSS
