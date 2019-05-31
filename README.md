@@ -10,3 +10,7 @@ FCC Project #5
 31 My 2019:
 - updated html files
 - added CSS
+- added responsiveness
+- tidy code
+- tested
+- completed project
