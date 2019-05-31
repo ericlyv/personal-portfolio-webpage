@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 .container{
 	width: 100%;
 }
@@ -82,7 +86,7 @@ nav a:active{
 .home-wrap{
 	height: 100vh;
 	text-align: center;
-	padding-top: 150px;
+	padding-top: 160px;
 }
 
 .home-wrap p{
