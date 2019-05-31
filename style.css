@@ -223,7 +223,6 @@ img {
 /* MEDIA QUERY 800 START */
 @media screen and (max-width: 800px){
 	body{
-		background: pink;
 		font-size: 16px;
 	}
 	
@@ -278,7 +277,6 @@ img {
 /* MEDIA QUERY 600 START */
 @media screen and (max-width: 600px){
 	body{
-		background: yellow;
 		min-width: 300px;
 	}
 	
