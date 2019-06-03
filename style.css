@@ -19,7 +19,7 @@ body{
 	font-size: 18px;
 }
 
-.home-wrap, #projects, .about-wrap, .contact-wrap, .footer{
+#projects, .about-wrap, .contact-wrap, .footer{
 	max-width: 1000px;
 	margin: auto;
 	padding: 50px 50px;
@@ -83,14 +83,19 @@ nav a:active{
 	color: red;
 }
 
-.home-wrap{
+#welcome-section{
 	height: 100vh;
+	display: flex;
+}
+
+.home-wrap{
+	max-width: 1000px;
+	margin: auto;
 	text-align: center;
-	padding-top: 160px;
 }
 
 .home-wrap p{
-	margin: 30px;
+	margin-top: 30px;
 	font-size: 1.8em;
 }
 
@@ -100,6 +105,7 @@ nav a:active{
 
 .name{
 	font-family: 'Yellowtail', cursive;
+	letter-spacing: 1px;
 }
 
 h2{
@@ -136,6 +142,7 @@ h2{
 	height: auto;
 	position: relative;
 	margin: 40px 0;
+	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.8);
 }
 
 img {
@@ -226,12 +233,8 @@ img {
 		font-size: 16px;
 	}
 	
-	.home-wrap, #projects, .about-wrap, .contact-wrap, .footer{
+	#projects, .about-wrap, .contact-wrap, .footer{
 		padding: 50px 25px;
-	}
-
-	.home-wrap{
-		padding-top: 175px;
 	}
 
 	.home-wrap p{
@@ -280,7 +283,7 @@ img {
 		min-width: 300px;
 	}
 	
-	.home-wrap, #projects, .about-wrap, .contact-wrap, .footer{
+	#projects, .about-wrap, .contact-wrap, .footer{
 		padding: 30px 0px;
 	}
 	
@@ -296,10 +299,6 @@ img {
 	nav li a{
 		-webkit-transition: all 0.2s;
 		transition: all 0.2s ease;
-	}
-
-	.home-wrap{
-		padding-top: 200px;
 	}
 
 	.home-wrap p{
