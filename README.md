@@ -14,3 +14,13 @@ FCC Project #5
 - tidy code
 - tested
 - completed project
+
+3 June 2019
+Update:
+- Added letter space to .name
+- Made #home-section height 100vh, display: flex;
+- Removed all padding from .home-wrap
+Removed .home-wrap from media queries
+
+Result:
+Welcome section content perfectly centered for all screen sizes
