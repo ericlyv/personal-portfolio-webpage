@@ -24,3 +24,7 @@ Removed .home-wrap from media queries
 
 Result:
 Welcome section content perfectly centered for all screen sizes
+
+
+8 June 2019:
+Removed about-wrap class which contained height 100vh only
